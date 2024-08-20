@@ -292,6 +292,13 @@ try {
     });
 } catch (_) {
 
+document
+  .getElementById("darkModeToggleButton2")
+  .addEventListener("click", function () {
+    toggleDarkMode();
+  });
+} catch(_) {
+
 }
 
 
